@@ -32,5 +32,6 @@ export class DatabaseService implements OnModuleInit {
 
   getCollection(collectionName: string) {
     return this.db.collection(collectionName);
-  }
+  } 
+
 }

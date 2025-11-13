@@ -13,8 +13,8 @@ export class UsersController {
   }
 
   @Get("getAllUser")
-  async findAll() {
-    return this.usersService.findAll();
+  async findAll() { 
+    return this.usersService.findAll(); 
   }
 
   @Get(':id')

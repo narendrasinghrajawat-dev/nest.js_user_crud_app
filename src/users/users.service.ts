@@ -23,9 +23,8 @@ export class UsersService {
     return {
       _key: result._key,
       _id: result._id,
-      registrationDate : new Date(),
       ...user,
-    };
+    };  
   }
 
   async findAll(): Promise<User[]> {
