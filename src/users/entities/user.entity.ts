@@ -6,4 +6,5 @@ export class User {
   password: string;
   createdAt: Date;
   updatedAt: Date;
+  registrationDate : Date
 }
